@@ -1,0 +1,11 @@
+flowchart TD
+    User["User / Developer"] --> Interface["CLI / UI / API"]
+    Interface --> CommandSet["Commands\nskill init — scaffold a new skill package with manifest\nskill publish — pack and upload a skill to the registry"]
+    CommandSet --> Core["Agent Skill Registry"]
+    Core --> Feature1["Publish skill packages with semantic versioning and metadata"]
+    Core --> Feature2["Full-text search and tag-based discovery of community skills"]
+    Core --> Feature3["CLI to install, update, and resolve skill dependencies"]
+    Core --> Feature4["Harness-agnostic output adapters (Claude .md, Cursor rules, generic)"]
+    Core --> Runtime["Runtime\nfastapi, uvicorn, typer"]
+    Runtime --> Deploy["Docker Support"]
+    Core --> Output["Repository Artifacts"]
