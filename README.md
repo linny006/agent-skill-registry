@@ -1,4 +1,3 @@
-```markdown
 # Awesome Agent Skill Registry [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of resources for building, publishing, and consuming AI agent skill packages — covering registries, tooling, frameworks, and best practices across the agent ecosystem.
@@ -294,5 +293,3 @@ flowchart TD
     Core --> Runtime["Runtime\nfastapi, uvicorn, typer"]
     Runtime --> Deploy["Docker Support"]
     Core --> Output["Repository Artifacts"]
-```
-
