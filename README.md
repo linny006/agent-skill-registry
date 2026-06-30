@@ -202,6 +202,7 @@ Real-world and reference implementations worth studying.
 - [composio-core](https://github.com/ComposioHQ/composio) — Source for Composio's 150+ agent integrations; good reference for auth-aware skill design.
 - [browser-use](https://github.com/browser-use/browser-use) — Browser automation skill for AI agents; well-structured tool interface over Playwright.
 - [e2b Code Interpreter](https://github.com/e2b-dev/code-interpreter) — Sandboxed code execution skill with streaming output; reference for stateful skills.
+- [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) — Hermes Agent plugin and portable skill package for X/Twitter research, monitoring, and approval-gated social actions.
 - [Tavily Search](https://github.com/tavily-ai/tavily-python) — Web search skill optimized for LLM agents; clean, minimal interface design.
 - [crawl4ai](https://github.com/unclecode/crawl4ai) — Web crawling and scraping skill built for AI agent consumption.
 - [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) — Reference MCP server for filesystem operations; canonical example of the MCP skill pattern.
